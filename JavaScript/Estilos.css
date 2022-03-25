@@ -1,0 +1,296 @@
+*{
+    background-color: #e14f32;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicialP{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicial{
+    order: 1;
+    background-color: white;
+    border: black 2px solid;
+    min-width: 400px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.inicial input{
+    margin-top: 50px;
+}
+
+.img{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.img img{
+    background-color: #ffc3b1;
+    margin-top: 10%;
+    border: black 2px solid;
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+}
+
+.comun{
+    background-color:  #ffc3b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    border-radius:  10px;
+    margin-top: 40px;
+    margin-left: 12%;
+    width: 300px;
+    height: 50px;
+    
+}
+
+
+.comun p{
+    background-color: #ffc3b1;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.p1{
+    position: relative;
+    left: -7%;
+    display: inline-block;
+}
+
+.p2{
+    position: relative;
+    left: -5%;
+    display: inline-block;
+}
+
+.p3{
+    position: relative;
+    left: 3%;
+    display: inline-block;
+}
+
+.p4{
+    position: relative;
+    left: 5%;
+    display: inline-block;
+}
+
+.stats{
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    border: 2px black solid;
+    border-radius: 10px;
+
+}
+
+.habilidades{
+    border: 2px black solid;
+    order: 1;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.inicial button{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #ffc3b1;
+}
+
+.inicial button:hover{
+    background-color: #dedea0;
+}
+
+.inicial input{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #ffc3b1;
+}
+
+.vii{
+    border-radius: 4px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-top: 40px;
+    background-color: #ffc3b1;
+    height: 60px;
+    width: 100%;
+}
+#vida{
+    background-color: #ffc3b1;
+    margin-left: 53%;
+    display: inline-block;
+    height: 40px;
+}
+.vida{
+    background-color: #ffc3b1;
+    margin-left: 15%;
+    display: inline-block;
+    height: 40px;
+}
+
+.att{
+    background-color: white;
+    height: 60px;
+    width: 100%; 
+}
+#Ataque{
+    background-color: white;
+    margin-left: 48%;
+    display: inline-block;
+    height: 40px;
+}
+.Ataque{
+    background-color: white;
+    display: inline-block;
+    margin-left: 15%;
+    height: 40px;
+}
+
+.deff{
+    border-radius: 4px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color:#ffc3b1;
+    height: 60px;
+    width: 100%; 
+}
+#Defensa{
+    background-color:#ffc3b1;
+    margin-left: 46%;
+    display: inline-block;
+    height: 40px;
+}
+.Defensa{
+    background-color:#ffc3b1;
+    display: inline-block;
+    margin-left: 15%;
+    height: 40px;
+}
+
+.defe{
+    background-color:white;
+    height: 60px;
+    width: 100%; 
+}
+#DefensaE{
+    background-color:white;
+    margin-left: 28%;
+    display: inline-block;
+    height: 40px;
+}
+.DefensaE{
+    background-color:white;
+    display: inline-block;
+    margin-left: 15%;
+    height: 40px;
+}
+
+.vel{
+    border-radius: 4px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color:#ffc3b1;
+    height: 60px;
+    width: 100%; 
+}
+#Velocidad{
+    background-color:#ffc3b1;
+    margin-left: 42%;
+    display: inline-block;
+    height: 40px;
+}
+.Velocidad{
+    background-color: #ffc3b1;
+    margin-left: 15%;
+    display: inline-block;
+    height: 40px;
+}
+
+.stats p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.est{
+    background-color: white;
+}
+.stats h2{
+    background-color: #ffc3b1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+    width: 250px;
+    margin-left: 75px;
+    border: 2px black solid;
+    border-radius: 30%;
+}
+
+.hab{
+    background-color: white;
+    margin-top: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+.habb{
+    background-color: white;
+}
+
+.habilidades h2{
+    background-color: #ffc3b1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+    width: 250px;
+    margin-left: 75px;
+    border: 2px black solid;
+    border-radius: 30%;
+}
+
+.hab p{
+    background-color: white;
+    font-size: 25px;
+}
+
+.tip{
+    text-align: center;
+    background-color: white;
+    margin-top: 40px;
+    height: 200px;
+}
+
+.tip p{
+    background-color: white;
+    font-size: 25px;
+}
